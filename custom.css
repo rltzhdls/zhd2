@@ -1,0 +1,130 @@
+.main-text,.main-text p{
+    padding-left:0;
+    text-align:center;
+
+
+}
+.main-text{
+    position:absolute;
+    top:0;
+    width:100%;
+    color:#fff;
+    padding-top:320px
+}
+.main-text p{
+    font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+    
+}
+.main-text .main-text2:after{
+    content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4xXG8IAo5KfYQ8J_RzgveKdy0wf4Hc8szCJWBmo6oV-sgUE0cjbmBFUi1SkONFRm4QECxQX_q0gmIYK6T6taDFp9YRiRmDke50fYDyNlEboBBa0_jvla0cs7iOMisB5kKYtLvrhLXGbhBlfauq23M0wPkRdKNi-QljC6v0YaFPpMUxnLmSf0HUerZL-pd/s16000/%EC%B4%88%EC%8B%AC%EB%A1%9C%EA%B3%A0.png");
+    font-size: 51px;
+    text-shadow: #C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px, #000 5px 5px;
+    color: #FAECC5;
+filter: drop-shadow(1px 1px 3px #000);
+
+
+}
+@keyframes neon-flicker{
+    0%{
+        text-shadow:0 0 10px rgba(102,37,.7),0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7)
+    }
+    100%{
+        text-shadow:0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7),0 0 40px rgba(102,37,.7)
+    }
+}
+.main-date span{
+
+    font-size:28px;
+    color:#fff;
+
+    word-break:keep-all;
+    word-wrap:break-word;
+    border-radius:15px;
+
+filter: drop-shadow(3px 3px 3px #000);
+font-family:HeirofLightBold !important;
+font-weight:bold !important;
+
+}
+
+.main-date {
+    translate: none;
+    rotate: none;
+    scale: none;
+    opacity: 1;
+    visibility: inherit;
+    filter: brightness(100%);
+    transform: translate(0px, 0px);
+
+    margin:0 auto;
+margin-top:120px;
+}
+
+.section-promotion{
+    top:0;
+}
+.section-promotion .section-promotion__list{
+    height:800px!important
+}
+
+.section-promotion .section-promotion__list li{
+top:-140px;
+}
+@media screen and (max-width:1024px){
+.section-promotion .section-promotion__list li {
+top:0;
+}
+.main-text,.main-text p{
+left: -200px;
+}
+    .main-text{
+        padding-top:0px !important;
+    }
+.main-text1 {
+
+}
+	.main-text1:after{
+	font-size:20px;	
+}
+    .main-text .main-text2:after {
+    font-size: 50px;
+    left: 270px;
+        position: absolute;
+        zoom: 50%;
+}
+
+.main-date {
+padding-top:120px;
+margin: 0 auto;
+        text-align: center;
+        left: unset;
+
+}
+	.main-date span{
+font-size:15px;
+}
+    .section-promotion .section-promotion__list{
+        height:215px!important
+    }
+.section-promotion .section-promotion__list li{
+top:0px;
+}
+    .section-promotion{
+       top: 0 !important;
+        padding-top: 90px !important;
+    }
+    #showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+        height:100px!important
+    }
+	#showsidebar3{
+        bottom:36%!important
+    }
+    #showsidebar2{
+        bottom:22%!important
+    }
+    #showsidebar1{
+        bottom:8%!important
+    }
+}
